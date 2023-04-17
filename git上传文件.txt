@@ -1,0 +1,49 @@
+git将本地文件上传到远程仓库
+
+独一无二的傻
+
+已于 2022-10-27 15:56:19 修改
+
+1131
+ 收藏 8
+分类专栏： git 文章标签： git github
+版权
+
+git
+专栏收录该内容
+3 篇文章2 订阅
+订阅专栏
+要记住！
+上传代码之前，一定要先下拉代码，如果有冲突（你和别人同时修改了某一个文件的某一行代码），那么就要先解决冲突，才能提交！
+
+这里以将自己的本地文件上传至git仓库为例
+1、首先进入需要上传的文件夹，鼠标右键点击Git Bash Here（如果右键没有显示，请先安装Git）
+2、输入git init，初始化git相关配置文件
+
+git init
+ 
+3、输入git remote add origin 你的远程仓库地址，设置本地与远程仓库的链接
+
+git remote add origin https://gitee.com/ouzzy/xxxxxxx.git
+（如果出现问题 error: remote origin already exists.
+ 输入git remote rm origin 删除关联的origin的远程库）
+4、输入git pull origin master，将远程仓库进行下拉，获取同步
+
+git pull origin master
+ 
+5、输入git add . ，将所有文件添加
+
+git add .
+ 
+6、输入git commit -m “本次上传的提示,随便你写什么都可以”，提交代码
+
+git commit -m "first commit"
+ 
+7、输入git push origin master，将代码上传至远程仓库的master节点
+
+git push origin master
+ 
+大功告成！
+————————————————
+版权声明：本文为CSDN博主「独一无二的傻」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_43679405/article/details/127549059
