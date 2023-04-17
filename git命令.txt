@@ -1,0 +1,84 @@
+$ git init
+Initialized empty Git repository in C:/Users/Administrator/.git/
+
+Administrator@Yan MINGW64 ~ (master)
+
+$ git clone https://github.com/gengabcd/Transformer-1.git
+Cloning into 'Transformer-1'...
+remote: Enumerating objects: 55, done.
+remote: Total 55 (delta 0), reused 0 (delta 0), pack-reused 55
+Receiving objects: 100% (55/55), 147.48 MiB | 6.16 MiB/s, done.
+Resolving deltas: 100% (21/21), done.
+
+
+Administrator@Yan MINGW64 ~ (master)
+$ cd d:/github
+
+Administrator@Yan MINGW64 /d/github
+$ git init
+Initialized empty Git repository in D:/github/.git/
+
+Administrator@Yan MINGW64 /d/github (master)
+$ git clone https://github.com/gengabcd/spacy-transformers.git
+Cloning into 'spacy-transformers'...
+remote: Enumerating objects: 6868, done.
+remote: Counting objects: 100% (630/630), done.
+remote: Compressing objects: 100% (141/141), done.
+remote: Total 6868 (delta 546), reused 523 (delta 489), pack-reused 6238
+Receiving objects: 100% (6868/6868), 1.14 MiB | 1.71 MiB/s, done.
+Resolving deltas: 100% (4660/4660), done.
+
+
+Administrator@win10 MINGW64 /d/github (master)
+$ git config --global user.name gengabcd
+
+Administrator@win10 MINGW64 /d/github (master)
+$ git config --global user.name
+gengabcd
+
+Administrator@win10 MINGW64 /d/github (master)
+$ git config --global user.email 541211200@qq.com
+
+Administrator@win10 MINGW64 /d/github (master)
+$ git config --global user.email
+541211200@qq.com
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=gengabcd
+user.email=541211200@qq.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+
+
+Administrator@win10 MINGW64 /d/github/test-aaa-1 (master)
+$ git status
+
+
+Administrator@win10 MINGW64 /d/github/test-aaa-1 (master)
+$ git add .
+
+Administrator@win10 MINGW64 /d/github/test-aaa-1 (master)
+$ git commit -m "12"
+[master (root-commit) c0fba27] 12
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\343\200\212\350\256\241\347\256\227\346\234\272\346\223\215\344\275\234\347\263\273\347\273\237\357\274\210\347\254\2544\347\211\210\357\274\211\343\200\213\345\255\246\344\271\240\346\214\207\345\257\274\344\270\216\351\242\230\350\247\243.pdf"
+ create mode 100644 "\347\254\2541\347\253\240.ppt"
+
